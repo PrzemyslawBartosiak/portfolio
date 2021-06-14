@@ -160,6 +160,15 @@
                   które umożliwią użytkownikowi przejście całego procesu
                   zamówienia jedzenia na dowóz.
                 </v-card-text>
+
+                <v-card-text
+                  >Użytkownik wyszukuje interesujące go dania a następnie dodaje
+                  je do odpowiednich osobistych kolekcji. Poprzez połączenie się
+                  z innym użytkownikiem aplikacji, a nastepnę polubienie danego
+                  dania można porównywać swoje gusta kulinarne wraz ze
+                  znajomymi. Korzystający z aplikacji może również dodać danie
+                  do osobistego schowka aby zawsze łatwo do niego powrócić.
+                </v-card-text>
               </div>
             </v-expand-transition>
           </v-card>
@@ -178,11 +187,16 @@
             <v-card-title>Portfolio</v-card-title>
 
             <v-card-actions>
-              <v-btn text href="https://przemyslawbartosiak-24138.web.app/">
+              <v-btn text href="https://przemyslawbartosiak.pl">
                 <v-icon left>mdi-fire</v-icon>Demo
               </v-btn>
 
-              <v-btn text> <v-icon left>mdi-github</v-icon>Kod </v-btn>
+              <v-btn
+                text
+                href="https://github.com/PrzemyslawBartosiak/portfolio"
+              >
+                <v-icon left>mdi-github</v-icon>Kod
+              </v-btn>
 
               <v-spacer></v-spacer>
 
@@ -200,9 +214,8 @@
                 <v-card-text>
                   Własnoręcznie zaprojektowane i wykonane od podstaw portfolio.
                   W całości stworzone w Vue.js z wykorzystaniem frameworka
-                  Vuetify. Strona korzysta z technologii Firestore, gdzie bardzo
-                  proste jest jej uaktualnienie oraz szybkie wgrywanie na
-                  hosting.
+                  Vuetify. Strona korzysta z technologii Firestore która
+                  zapewnia prosty i intuicyjny hosting.
                 </v-card-text>
               </div>
             </v-expand-transition>

@@ -15,6 +15,7 @@
         ></v-img>
       </v-btn>
       <v-spacer></v-spacer>
+
       <v-btn
         v-for="link in links"
         :key="link.label"
@@ -66,12 +67,6 @@ export default {
     return {
       title: 'Przemysław Bartosiak - Portfolio',
       links: [
-        {
-          label: 'Resume',
-          url: 'https://www.linkedin.com/in/przemysław-bartosiak-0977161a6/',
-          icon: 'mdi-newspaper-variant-outline'
-        },
-
         {
           label: 'LinkedIn',
           url: 'https://www.linkedin.com/in/przemysław-bartosiak-0977161a6/',
